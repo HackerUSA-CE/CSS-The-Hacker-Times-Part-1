@@ -43,6 +43,9 @@ nav {
   border-bottom: 1px solid #eee;
   padding: 5px 0;
   margin: 1em 0;
+  position: sticky;
+  top: 0;
+  background: white;
 }
 nav ul {
   list-style: none;
