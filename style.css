@@ -5,6 +5,23 @@ header {
     font-family: 'Abril Fatface'; 
 }
 
+h1 {
+    text-align:center;
+    padding-top:200px;
+    font-size:45px;
+    color:indigo;
+}
+
+h2 {
+    color:purple;
+}
+
+span {
+    float:left;
+    text-align:center;
+    padding-top:50px;
+    
+}
 body {
     background-color: #eee;
     font-family: 'Source Sans Pro';
@@ -12,13 +29,21 @@ body {
 }
 
 .css-1lire5m {
-    border-right:initial;
+    float:right;
+    padding-right:75px;
 }
 
 nav a:hover {
     color: red;
 }
 
+nav {
+    position:sticky;
+    top:0px;
+    bottom:1.5em;
+    background-color: white;
+    height:45px;
+}
 
 main {
     color: #dd3232;
@@ -26,7 +51,7 @@ main {
 }
 
 img {
-    border-radius: 15px;
+    padding-left:110px;
 }
 
 .newspaper-container {
@@ -46,8 +71,6 @@ h5 {
 ul {
     list-style-type: none;
     margin-left: -10px;
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
 }
 
 li {
@@ -56,44 +79,29 @@ li {
     border-bottom: #dd3232;
 }
 
-.more-articles  {
-    margin: 40px;
+.gridContainer1 {
+    display:inline-grid;
+    grid-template-columns: auto auto ;
+    margin:auto 20%;
+    text-align:center;
 
 }
 
-.more-articles  h4    {
-    font-family: 'Roboto Slab';
+.grid-item1 {
+    display:inline-grid;
+    image-orientation: inherit;
 }
 
-.more-articles p    {
-    width: 250px;
+.gridContainer2 {
+    display:inline-grid;
+    grid-template-columns:auto auto auto;
+    margin:auto 20%;
+}
+.grid-item2 {
+    display:inline-grid;
 }
 
-.more-articles section   {
-    display: inline-block;
-    text-align: center;
-}
-
-.even-more-articles section {
-    display:inline-block;
+.survey {
     text-align:center;
 }
-
-.even-more-articles  {
-    margin: -10px;
-}
-
-.even-more-articles img {
-    width: 60%
-}
-
-.even-more-articles  h4   {
-    font-family: 'Roboto Slab';
-}
-
-.even-more-articles p   {
-    width: 400px;
-}
-
-
 
