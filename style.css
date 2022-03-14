@@ -1,1 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@font-face {
+    font-family: Source Snas Pro Abril Fatface Roboto Slab;
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap'
+    );
+}
+body {
+    font-family: Source Sans Pro;
+    text-align: center;
+    background-color: #eee;
+}
