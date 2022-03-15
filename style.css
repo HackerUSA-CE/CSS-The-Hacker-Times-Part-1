@@ -8,9 +8,10 @@ html{
     
     margin: auto;
     text-decoration: none;
-    width: 43%;
+    width: 100%;
     border-radius: round;
     background-color: #777;
+    clear: both;
 }
 body {
     font-family: Source Sans Pro;
@@ -25,14 +26,16 @@ body {
 
 header{
     font-family: Abril Fatface;
+    font-size: 100%;
 }
 header > h1{
     text-align: center;
+
 }
 
 main>h2{
     text-align: left;
-    font-size: 200%;
+    font-size: 170%;
     font-family: 'Roboto Slab' serif;
 }
 
@@ -44,22 +47,25 @@ main>h5{
 }
 
 main>img{
-    width: 710px;
+    width: 715px;
 }
 
 header>div{
     text-align: left;
+    font-size: 40%;
+    font-weight: normal;
+    font-family: sans-serif;
 }
 
 nav>ul>li{
     
-    display: inline-block;
+    display: inline;
     font-family: lightgrey serif;
-    text-align: left;
+    text-align: justify;
     text-decoration: none;
     color:#777;
     margin: auto;
-    font-size: 95%;
+    font-size: 85%;
 }
 
 li{
