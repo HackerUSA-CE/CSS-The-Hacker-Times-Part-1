@@ -5,16 +5,26 @@
     );
 }
 html{
-    padding: 30px 400px 30px 400px;
+    
     margin: auto;
     text-decoration: none;
+    width: 43%;
+    border-radius: round;
+    background-color: #777;
 }
 body {
     font-family: Source Sans Pro;
     text-align: justify;
     background-color: #eee;
     margin:auto;
-    
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    width: 700px;
+    height: 1000px;
+}
+
+header{
+    font-family: Abril Fatface;
 }
 header > h1{
     text-align: center;
@@ -28,25 +38,40 @@ main>h2{
 
 main>h5{
     text-align: left;
-    color: red;
+    color: firebrick;
     font-size: 90%;
     font-weight: bold;
 }
 
 main>img{
-    width: 690px;
+    width: 710px;
 }
 
 header>div{
     text-align: left;
 }
 
-nav{
+nav>ul>li{
     
     display: inline-block;
-    font-family: serif;
+    font-family: lightgrey serif;
     text-align: left;
     text-decoration: none;
+    color:#777;
+    margin: auto;
+    font-size: 95%;
+}
+
+li{
+    display: inline;
+    padding: 8px 0px 8px 0px;
+    color: #777;
+    text-decoration: none;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    text-align: justify;
+    margin: 0px 3px;
+         
 }
 
 .more-articles {
@@ -67,12 +92,3 @@ section p {
     display: inline;
 }
 
-li{
-    display: inline-block;
-    text-decoration: none;
-    margin: 0px auto 0px auto;
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
-    text-align: center;
-        
-}
