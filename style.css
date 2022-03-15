@@ -4,8 +4,72 @@
     src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap'
     );
 }
+html{
+    padding: 30px 400px 30px 400px;
+    margin: auto;
+}
 body {
     font-family: Source Sans Pro;
-    text-align: center;
+    text-align: justify;
     background-color: #eee;
+    margin:auto;
+    
+}
+header > h1{
+    text-align: center;
+}
+
+main>h2{
+    text-align: left;
+    font-size: 200%;
+    font-family: 'Roboto Slab' serif;
+}
+
+main>h5{
+    text-align: left;
+    color: red;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+main>img{
+    width: 690px;
+}
+
+header>div{
+    text-align: left;
+}
+
+nav{
+    
+    display: inline-block;
+    font-family: serif;
+    text-align: left;
+}
+
+.more-articles {
+    display: inline-block;
+}
+
+.more-articles>section{
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+section p {
+    padding-right: 0px;
+    padding-left: 0px;
+    display: inline;
+}
+
+li{
+    display: inline-block;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    
 }
