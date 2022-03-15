@@ -7,6 +7,7 @@
 html{
     padding: 30px 400px 30px 400px;
     margin: auto;
+    text-decoration: none;
 }
 body {
     font-family: Source Sans Pro;
@@ -45,6 +46,7 @@ nav{
     display: inline-block;
     font-family: serif;
     text-align: left;
+    text-decoration: none;
 }
 
 .more-articles {
@@ -67,9 +69,10 @@ section p {
 
 li{
     display: inline-block;
+    text-decoration: none;
     margin: 0px auto 0px auto;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     text-align: center;
-    
+        
 }
