@@ -57,7 +57,7 @@ header>div{
     font-family: sans-serif;
 }
 
-nav>ul>li{
+nav ul{
     
     display: inline;
     font-family: lightgrey serif;
@@ -65,7 +65,8 @@ nav>ul>li{
     text-decoration: none;
     color:#777;
     margin: auto;
-    font-size: 85%;
+    font-size: 80%;
+    list-style: none;
 }
 
 li{
