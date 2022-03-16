@@ -57,7 +57,7 @@ header>div{
     font-family: sans-serif;
 }
 
-nav ul{
+nav {
     
     display: inline;
     font-family: lightgrey serif;
@@ -65,20 +65,35 @@ nav ul{
     text-decoration: none;
     color:#777;
     margin: auto;
-    font-size: 80%;
+    font-size: 90%;
     list-style: none;
+    position: sticky;
+    background: white;
 }
 
-li{
-    display: inline;
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
     padding: 8px 0px 8px 0px;
     color: #777;
     text-decoration: none;
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
     text-align: justify;
-    margin: 0px 3px;
+    margin: 1em 0;
+    padding: 0 0.5em;
+    position: sticky;
+    top: 0;
          
+}
+
+nav a{
+    font-size: 0.8em;
+    color: #777;
 }
 
 .more-articles {
