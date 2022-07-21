@@ -1,1 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@font-face {
+    font-family: Source Snas Pro Abril Fatface Roboto Slab;
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap'
+    );
+}
+html{
+    
+    margin: auto;
+    text-decoration: none;
+    width: 100%;
+    border-radius: round;
+    background-color: #777;
+    clear: both;
+}
+body {
+    font-family: Source Sans Pro;
+    text-align: justify;
+    background-color: #eee;
+    margin:auto;
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    width: 700px;
+    height: 1000px;
+}
+
+header{
+    font-family: Abril Fatface;
+    font-size: 100%;
+}
+header > h1{
+    text-align: center;
+
+}
+
+main>h2{
+    text-align: left;
+    font-size: 170%;
+    font-family: 'Roboto Slab' serif;
+}
+
+main>h5{
+    text-align: left;
+    color: firebrick;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+main>img{
+    width: 715px;
+}
+
+header>div{
+    text-align: left;
+    font-size: 40%;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+nav {
+    
+    display: inline;
+    font-family: lightgrey serif;
+    text-align: justify;
+    text-decoration: none;
+    color:#777;
+    margin: auto;
+    font-size: 90%;
+    list-style: none;
+    position: sticky;
+    background: white;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 8px 0px 8px 0px;
+    color: #777;
+    text-decoration: none;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    text-align: justify;
+    margin: 1em 0;
+    padding: 0 0.5em;
+    position: sticky;
+    top: 0;
+         
+}
+
+nav a{
+    font-size: 0.8em;
+    color: #777;
+}
+
+.more-articles {
+    display: inline-block;
+}
+
+.more-articles>section{
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+section p {
+    padding-right: 0px;
+    padding-left: 0px;
+    display: inline;
+}
+
