@@ -51,3 +51,20 @@ a {
   color: rgb(103, 103, 103);
   text-decoration: none;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+h5 {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.main-articles{
+  display: inline-block;
+  border: 15em;
+}
