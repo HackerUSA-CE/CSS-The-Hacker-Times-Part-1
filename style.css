@@ -1,1 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* END RESET */
+
+/* Start body */
+
+body {
+  margin: 0 auto;
+  padding: 35px 0;
+  width: 700px;
+  background-color: #eee;
+  font-family: "Source Sans Pro";
+}
+
+/* End Body */
+
+/* Start Navigation */
+
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface";
+}
+
+h4 {
+    font-family: "Roboto Slab";
+}
+
+header > h1 {
+  text-align: center;
+}
+
+.date {
+  padding: 10px 0 0 10px;
+  color: #777;
+}
+
+h5 {
+  color: #dd3232;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+nav li {
+  font-size: 11px;
+  margin: 0 5px;
+}
+
+nav li a {
+  color: #777;
+  text-decoration: none;
+}
+
+/* Make hyperlinks more visible on hover */
+
+nav li a:hover {
+  background-color: #777;
+  color: white;
+}
+
+
+/* End Navigation */
+
+hr {
+  border: none;
+  border-top: 1px solid #777;
+  margin: 20px 0;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Start main content */
+
+main {
+  margin: 0 20px;
+}
+
+main > p {
+  color: #777;
+}
+
+.newspaper-container {
+  background-color: white;
+  border-radius: 20px;
+}
+
+/* End main content */
+
+/* Start articles */
+
+.more-articles {
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  flex-basis: 48%;
+}
+
+section > p {
+    color: #777;
+    margin: 0 0 10px 10px;
+}
+
+/* End articles */
