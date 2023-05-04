@@ -21,9 +21,6 @@ p {
 /* Start body */
 
 body {
-  margin: 0 auto;
-  padding: 35px 0;
-  width: 700px;
   background-color: #eee;
   font-family: "Source Sans Pro";
 }
@@ -105,6 +102,9 @@ main > p {
 }
 
 .newspaper-container {
+  margin: 100px auto;
+  width: 700px;
+  padding: 20px;
   background-color: white;
   border-radius: 20px;
 }
