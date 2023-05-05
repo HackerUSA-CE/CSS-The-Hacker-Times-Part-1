@@ -25,9 +25,18 @@ body {
   font-family: "Source Sans Pro";
 }
 
+.newspaper-container {
+  margin: 100px auto;
+  width: 700px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px #ddd;
+}
+
 /* End Body */
 
-/* Start Navigation */
+/* Fonts and colors */
 
 h1,
 h2,
@@ -51,6 +60,9 @@ header > h1 {
 h5 {
   color: #dd3232;
 }
+/* End fonts and colors */
+
+/* Start Navigation */
 
 nav ul {
   list-style-type: none;
@@ -67,7 +79,7 @@ nav li {
   margin: 0 5px;
 }
 
-nav li a {
+nav a {
   color: #777;
   text-decoration: none;
 }
@@ -97,18 +109,6 @@ main {
   margin: 0 20px;
 }
 
-main > p {
-  color: #777;
-}
-
-.newspaper-container {
-  margin: 100px auto;
-  width: 700px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
-}
-
 /* End main content */
 
 /* Start articles */
@@ -125,7 +125,6 @@ section {
 }
 
 section > p {
-    color: #777;
     margin: 0 0 10px 10px;
 }
 
