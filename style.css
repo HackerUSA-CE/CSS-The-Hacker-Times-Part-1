@@ -97,13 +97,16 @@ li {
 a {
   color: #777;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Make hyperlinks more visible on hover */
 
 a:hover {
-  background-color: #777;
-  color: white;
+  background-image: linear-gradient(to bottom, #5bce2e, #4c00ff);
+  background-size: 150%;
+  color: #fff;
+  transition: color 0.4s ease-in-out
 }
 
 /* End Navigation */
@@ -156,3 +159,5 @@ footer > ul {
   color: #777;
   justify-content: unset;
 }
+
+/* End footer */
