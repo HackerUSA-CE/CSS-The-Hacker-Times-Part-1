@@ -27,11 +27,15 @@ body {
 
 .newspaper-container {
   margin: 100px auto;
-  width: 700px;
+  width: 75vw;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 1px 1px 2px #ddd;
+}
+
+img {
+  width: 100%;
 }
 
 /* End Body */
@@ -48,10 +52,6 @@ h4 {
     font-family: "Roboto Slab";
 }
 
-header > h1 {
-  text-align: center;
-}
-
 .date {
   padding: 10px 0 0 10px;
   color: #777;
@@ -62,35 +62,49 @@ h5 {
 }
 /* End fonts and colors */
 
+h1 {
+  text-align: center;
+}
+
 /* Start Navigation */
 
-nav ul {
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+nav.sticky {
+  padding: 15px 0;
+}
+
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0 20px;
   text-align: center;
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
-nav li {
+li {
   font-size: 11px;
   margin: 0 5px;
 }
 
-nav a {
+a {
   color: #777;
   text-decoration: none;
 }
 
 /* Make hyperlinks more visible on hover */
 
-nav li a:hover {
+a:hover {
   background-color: #777;
   color: white;
 }
-
 
 /* End Navigation */
 
@@ -128,4 +142,17 @@ section > p {
     margin: 0 0 10px 10px;
 }
 
+.extra-articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 0 20px;
+}
 /* End articles */
+
+/* Start footer */
+
+footer > ul {
+  color: #777;
+  justify-content: unset;
+}
