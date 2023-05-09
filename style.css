@@ -98,16 +98,17 @@ a {
   color: #777;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
+  padding: 5px;
 }
 
 /* Make hyperlinks more visible on hover */
 
 a:hover {
   background-image: linear-gradient(to bottom, #5bce2e, #4c00ff);
-  background-size: 150%;
   color: #fff;
   transition: color 0.4s ease-in-out
 }
+
 
 /* End Navigation */
 
